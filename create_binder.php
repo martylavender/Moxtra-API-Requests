@@ -6,11 +6,10 @@ include('auth.inc.php');
 // for debugging
 // var_dump($token);
 
-// $tag_value = "Tag%20Name";
-$name = "Binder Name";
-$description = "Binder Description";
-$tag_name = "Tag Name";
-$tag_value = "Tag Value";
+$name = "Binder Name"; // this should be populated from external system e.g., ticket name
+$description = "Binder Description"; // this should be populated from external system
+$tag_name = "Tag Name"; // this should be populated from external system 
+$tag_value = "Tag Value"; // this should be populated from external system 
 
 $data = [
     'name' => $name,
